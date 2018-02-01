@@ -1,1 +1,0 @@
-#Autor: Carlos Ochoa González
