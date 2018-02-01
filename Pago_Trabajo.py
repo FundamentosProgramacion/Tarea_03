@@ -1,13 +1,13 @@
 # Autor: Fernando Sebastian Silva Miramontes
-# Se calcula el pago de un trabajo
+# Se calcula el pago de las horas normales y extra por separado y juntos de una jornada de trabajo.
 
-def gananciaNormal(pagoPorHora, horasNormales):
+def gananciaNormal(pagoPorHora, horasNormales): # Calcula el pago por las horas normales trabajadas.
     return pagoPorHora*horasNormales
 
 
-def gananciaExtra(pagoPorHora, horasExtras):
-    ganacia = pagoPorHora*1.75
-    return ganacia*horasExtras
+def gananciaExtra(pagoPorHora, horasExtras): # Calcula el pago por las horas extras trabajadas.
+    montoExtra = pagoPorHora*1.75
+    return montoExtra*horasExtras
 
 
 def main() :

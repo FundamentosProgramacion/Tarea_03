@@ -1,14 +1,13 @@
 # Autor: Fernando Sebastian Silva Miramontes
-# Datos de un trapecio
+# Se calcula el area y perimetro de un trapecio con los datos otorgados.
 
 import math
 
-def calcularArea(baseMayor, baseMenor, altura):
-    area = ((baseMenor + baseMayor)/2)*altura
-    return area
+def calcularArea(baseMayor, baseMenor, altura):  # Calcula el Area del trapecio
+    return ((baseMenor + baseMayor)/2)*altura
 
 
-def calcularPerimetro(baseMayor, baseMenor, altura):
+def calcularPerimetro(baseMayor, baseMenor, altura): # Calcula el perimetro del trapecio
     baseTriangulo = (baseMayor - baseMenor)/2
     hipotenusa = math.sqrt(baseTriangulo**2 + altura**2)
     return baseMayor + baseMenor + hipotenusa*2
@@ -22,4 +21,5 @@ def main() :
     perimetro = calcularPerimetro(baseMayor, baseMenor, altura)
     print("Area: %.2f" % area)
     print("Perimetro: %.2f" % perimetro)
+
 main()
