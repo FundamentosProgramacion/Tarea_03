@@ -19,5 +19,6 @@ def main():
     total = pagoNormal+pagoExtra
     print("Pago normal: $%.2f" % pagoNormal)
     print("Pago extra: $%.2f" % pagoExtra)
+    print("-------------------------------------")
     print("Pago total: $%.2f" % total)
 main()
