@@ -1,5 +1,5 @@
 #Jossian Abimelec García Quijano
-#Calcula
+#Calcula el pago para un trabajador dadas las horas
 
 
 def calcularPago(horasnormales, pagohora):
