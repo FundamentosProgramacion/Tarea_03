@@ -1,5 +1,5 @@
 #Jossian Abimelec García Quijano
-#Calcula el rendimiento y litros necesarios
+#Calcula el rendimiento a partir de los kilometros que recorrio y la cantidad de gasolina que utilizo asi como litros necesarios para recorrer cierta distancia
 
 
 
@@ -9,7 +9,7 @@ def calcularRendimiento(kilometros, gasolina):
 
 
 def calcularConversion(rendimiento):
-    conversion=rendimiento*2.3523
+    conversion=(rendimiento*3.785)/1.6093
     return conversion
 
 def calcularLitros(kilometrosrecorrer, gasolina,kilometros):

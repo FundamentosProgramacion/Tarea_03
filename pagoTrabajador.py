@@ -1,5 +1,5 @@
 #Jossian Abimelec García Quijano
-#Calcula el pago para un trabajador dadas las horas
+#Calcula el pago para un trabajador de horas y horas extras dadas las horas y el pago por horas
 
 
 def calcularPago(horasnormales, pagohora):
@@ -13,8 +13,8 @@ def calcularPagoextra(horasextras, pagohora):
 
 
 def main():
-    horasnormales = int(input("Teclea en número de horas normales trabajadas: "))
-    horasextras = int(input("Teclea en número de horas extras trabajadas: "))
+    horasnormales = int(input("Teclea las horas normales trabajadas: "))
+    horasextras = int(input("Teclea las horas extras trabajadas: "))
     pagohora = int(input("Teclea el pago por hora: "))
     pago = calcularPago(horasnormales, pagohora)
     pagoextra = calcularPagoextra(horasextras, pagohora)

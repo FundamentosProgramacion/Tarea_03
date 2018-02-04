@@ -1,6 +1,5 @@
 #Autor: Jossian Abimelec García Quijano
-#calcula el valor a pagar a partir de los asientos
-
+#calcula el valor a pagar a partir de la clase de los asientos que quiere comprar
 
 def calcularPago(numeroBoletosA, numeroBoletosB, numeroBoletosC):
     pago=numeroBoletosA*870+numeroBoletosB*650+numeroBoletosC*235
@@ -9,9 +8,9 @@ def calcularPago(numeroBoletosA, numeroBoletosB, numeroBoletosC):
 
 
 def main():
-    numeroBoletosA = int(input("Teclea el número de asientos clase A: "))
-    numeroBoletosB = int(input("Teclea el número de asientos clase B: "))
-    numeroBoletosC = int(input("Teclea el número de asientos clase C: "))
+    numeroBoletosA = int(input("Número de boletos de clase A: "))
+    numeroBoletosB = int(input("Número de boletos de clase B: "))
+    numeroBoletosC = int(input("Número de boletos de clase C: "))
     pago=calcularPago(numeroBoletosA,numeroBoletosB,numeroBoletosC)
     print("el costo total es: $%.2f "%pago)
 

@@ -1,5 +1,5 @@
 #Jossian Abimelec García Quijano
-#Encuentra el area de un trapecio
+#Encuentra el area de un trapecio dadas la base mayor, base menor y altura
 
 from math import sqrt
 
@@ -13,9 +13,9 @@ def calcularPerimetro(basemenor, basemayor, altura):
     return perimetro
 
 def main():
-    basemayor = int(input("Teclea el valor de la base mayor: "))
-    basemenor = int(input("Teclea el valor de la base menor: "))
-    altura = int(input("Teclea el valor de la altura: "))
+    basemayor = int(input("Escribe la longuitud de la base mayor: "))
+    basemenor = int(input("Escribe la longuitud de la base menor: "))
+    altura = int(input("Escribe la altura la altura: "))
     area = calcularArea(basemenor, basemayor, altura)
     perimetro = calcularPerimetro(basemenor, basemayor, altura)
     print("Area: %.2f"%area)
