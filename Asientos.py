@@ -9,9 +9,9 @@ def calcularPago(asientosA, asientosB, asientosC):
     return totA + totB + totC
 
 def main():
-    boletosA = int(input('Número de boleros clase A: '))
-    boletosB = int(input('Número de boleros clase B: '))
-    boletosC = int(input('Número de boleros clase C: '))
+    boletosA = int(input('Número de boleros de clase A: '))
+    boletosB = int(input('Número de boleros de clase B: '))
+    boletosC = int(input('Número de boleros de clase C: '))
     total = calcularPago(boletosA, boletosB, boletosC)
     print('TOTAL: $%10.2f' % total)
 
