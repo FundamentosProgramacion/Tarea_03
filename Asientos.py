@@ -2,7 +2,7 @@
 # Sebastian Morales Martin
 # Asientos, calcula el numero de boletos de las 3 clases posibles
 
-def calcularPago(asientosA, asientosB, asientosC):
+def calcularPago(asientosA, asientosB, asientosC): #calcula el precio por clasificacion de asientos y los suma en total
     totA = asientosA * 870
     totB = asientosB * 650
     totC = asientosC * 235
